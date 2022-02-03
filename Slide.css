@@ -1,0 +1,31 @@
+.sl1,
+.sl2,
+.sl3,
+.sl4 {
+  margin-top: 5%;
+  margin-left: 25%;
+  margin-right: 20%;
+  margin-bottom: 30%;
+  background-color: white;
+  border-style: dotted;
+  width: 200px;
+  min-height: 125px;
+  padding-left: 20px;
+
+  background-size: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  bottom: 0;
+}
+.sl1 {
+  background-image: url("C:\Users\HP\Desktop\go-workspace\my-app\public\images\tools.png");
+}
+.sl2 {
+  background-image: url("C:\Users\HP\Desktop\go-workspace\my-app\public\images\frameworks.png");
+}
+.sl3 {
+  background-image: url("C:\Users\HP\Desktop\go-workspace\my-app\public\images\Responsive_Web_Design.webp");
+}
+.sl4 {
+  background-image: url("C:\Users\HP\Desktop\go-workspace\my-app\public\images\java-j2ee-500x500.jpg");
+}

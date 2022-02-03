@@ -1,0 +1,78 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 20px;
+  position: fixed;
+  background-color: aqua;
+  top: 0;
+  text-transform: uppercase;
+}
+li {
+  cursor: pointer;
+  list-style: none;
+}
+li button,
+li :link {
+  background-color: #ff0000;
+}
+
+/* visited link */
+li button,
+li:visited {
+  background-color: #00ff00;
+}
+
+/* mouse over link */
+li button,
+li:hover {
+  background-color: #ff00ff;
+}
+
+/* selected link */
+li button,
+li:active {
+  background-color: #0000ff;
+}
+
+.name {
+  color: crimson;
+  font-family: cursive;
+  cursor: none;
+}
+@media screen and (max-width: 600px) {
+  .header {
+    display: block;
+    justify-content: space-around;
+    width: 100%;
+    /* padding: 20px 0; */
+    /* position: fixed; */
+    width: 100;
+    padding-left: 10px;
+  }
+}
+/* @media screen and (max-width: 600px) {
+  li {
+    display: block;
+    cursor: pointer;
+  }
+} */
+@media screen and (max-width: 300px) {
+  li {
+    display: block;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 412px) {
+  li {
+    display: block;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  .header {
+    padding: 15px;
+  }
+}
