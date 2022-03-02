@@ -45,7 +45,10 @@ setStatus('');
         <>
         <div id="section1">
           <div id="content">
-        <h1 >HI , I am Anu Mariam Skariah <br></br>
+        <h1 > A graduate in Computer science and engineering with 2 years of experience, looking for returning to workforce after a career break for raising the kids.
+
+   <p>I have been learning and keeping updated on new technologies and I 
+     mainly focused on learning front end technologies during the break.</p> <br></br>
         
       
         
