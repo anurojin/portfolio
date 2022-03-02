@@ -16,10 +16,15 @@
   border-style: solid;
   border-color: black;
   width: 80%;
-  padding-bottom: 20%;
+  /* padding-bottom: -50px; */
   margin-left: 100px;
   margin-right: 100px;
   text-align: center;
+  font-family: cursive;
+  color: white;
+  font-size: 5px;
+  padding-left: 5px;
+  padding-top: 10px;
 }
 #contact-form {
   border-style: groove;
@@ -33,15 +38,31 @@
   background-image: url("C:\Users\HP\Desktop\go-workspace\my-app\public\images\mail.jpg");
 }
 
-h1 {
+/* h1 {
   font-family: cursive;
   font-size: 30px;
   color: white;
-}
+} */
 
 label {
   padding: 12px 12px 0 12px;
   display: flex;
+}
+@media screen and (max-width: 1280px) {
+  .col-25,
+  .col-75,
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 90%;
+  }
+  #content {
+    font-size: 16px;
+    padding-left: 10px;
+    padding-top: 35px;
+    margin-left: 60px;
+    margin-top: 25px;
+  }
 }
 @media screen and (max-width: 1110px) {
   .col-25,
@@ -50,6 +71,29 @@ label {
   input[type="email"],
   textarea {
     width: 100%;
+  }
+  #content {
+    /* font-size: 16px; */
+    padding-left: 10px;
+    padding-top: 35px;
+    margin-left: 60px;
+    margin-top: 25px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .col-25,
+  .col-75,
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+  }
+  #content {
+    /* font-size: 16px; */
+    padding-left: 10px;
+    padding-top: 35px;
+    margin-left: 60px;
+    margin-top: 25px;
   }
 }
 @media screen and (max-width: 912px) {
@@ -69,8 +113,12 @@ label {
   label {
     font-size: 35px;
   }
-  h1 {
-    font-size: 50px;
+  #content {
+    /* font-size: 10px; */
+    padding-left: 10px;
+    padding-top: 35px;
+    margin-left: 60px;
+    margin-top: 25px;
   }
 }
 @media screen and (max-width: 910px) {
@@ -96,12 +144,19 @@ label {
     margin-right: 150px;
     padding-right: 55px;
   }
+  #content {
+    font-size: 24px;
+    padding-left: 10px;
+    padding-top: 35px;
+    margin-left: 60px;
+    margin-top: 25px;
+  }
   label {
     font-size: 15px;
   }
-  h1 {
+  /* h1 {
     font-size: 30px;
-  }
+  } */
 }
 @media screen and (max-width: 768px) {
   .col-25,
@@ -120,9 +175,9 @@ label {
   label {
     font-size: 15px;
   }
-  h1 {
+  /* h1 {
     font-size: 30px;
-  }
+  } */
 }
 @media screen and (max-width: 600px) {
   .col-25,
@@ -152,9 +207,16 @@ label {
   label {
     font-size: 15px;
   }
-  h1 {
-    font-size: 40px;
+  #content {
+    font-size: 15px;
+    padding-left: 5px;
+    padding-top: 35px;
+    margin-left: 5px;
+    margin-top: 25px;
   }
+  /* h1 {
+    font-size: 40px;
+  } */
   #hello {
     font-size: 35px;
   }
@@ -174,12 +236,19 @@ label {
     padding-left: 20px;
     margin-right: 20px;
   }
+  #content {
+    font-size: 17px;
+    padding-left: 5px;
+    padding-top: 35px;
+    margin-left: 5px;
+    margin-top: 25px;
+  }
   label {
     font-size: 15px;
   }
-  h1 {
-    font-size: 40px;
-  }
+  /* h1 {
+    font-size: 15px;
+  } */
   #hello {
     font-size: 35px;
   }
@@ -202,13 +271,125 @@ label {
   label {
     font-size: 15px;
   }
-  h1 {
-    font-size: 40px;
+  #content {
+    font-size: 17px;
+    padding-left: 5px;
+    padding-top: 30px;
+    margin-left: 5px;
+    margin-top: 20px;
   }
+  /* h1 {
+    font-size: 15px;
+  } */
   #hello {
     font-size: 35px;
   }
 }
+@media screen and (max-width: 393px) {
+  .col-25,
+  .col-75,
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    max-width: 100%;
+  }
+  #contact-form {
+    margin-left: 10px;
+    padding-left: 25px;
+  }
+  #content {
+    font-size: 6px;
+    padding-left: 5px;
+    padding-top: 30px;
+    margin-left: 5px;
+    margin-top: 20px;
+  }
+  label {
+    font-size: 15px;
+  }
+  /* h1 {
+    font-size: 15px;
+  } */
+}
+@media screen and (max-width: 390px) {
+  .col-25,
+  .col-75,
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    max-width: 100%;
+  }
+  #contact-form {
+    margin-left: 10px;
+    padding-left: 25px;
+  }
+  #content {
+    font-size: 12px;
+    padding-left: 5px;
+    padding-top: 30px;
+    margin-left: 5px;
+    margin-top: 20px;
+  }
+  label {
+    font-size: 15px;
+  }
+  /* h1 {
+    font-size: 15px;
+  } */
+}
+@media screen and (max-width: 375px) {
+  .col-25,
+  .col-75,
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    max-width: 100%;
+  }
+  #contact-form {
+    margin-left: 10px;
+    padding-left: 25px;
+  }
+  #content {
+    font-size: 8px;
+    padding-left: 5px;
+    padding-top: 30px;
+    margin-left: 5px;
+    margin-top: 20px;
+  }
+  label {
+    font-size: 15px;
+  }
+  /* h1 {
+    font-size: 15px;
+  } */
+}
+@media screen and (max-width: 360px) {
+  .col-25,
+  .col-75,
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    max-width: 100%;
+  }
+  #contact-form {
+    margin-left: 10px;
+    padding-left: 25px;
+  }
+  #content {
+    font-size: 12px;
+    padding-left: 5px;
+    padding-top: 30px;
+    margin-left: 5px;
+    margin-top: 20px;
+  }
+  label {
+    font-size: 15px;
+  }
+  /* h1 {
+    font-size: 15px;
+  } */
+}
+
 @media screen and (max-width: 300px) {
   .col-25,
   .col-75,
@@ -221,10 +402,44 @@ label {
     margin-left: 10px;
     padding-left: 25px;
   }
+  #content {
+    font-size: 15px;
+    padding-left: 5px;
+    padding-top: 30px;
+    margin-left: 5px;
+    margin-top: 20px;
+  }
   label {
     font-size: 15px;
   }
-  h1 {
-    font-size: 30px;
+  /* h1 {
+    font-size: 15px;
+  } */
+}
+@media screen and (max-width: 280px) {
+  .col-25,
+  .col-75,
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    max-width: 100%;
   }
+  #contact-form {
+    margin-left: 10px;
+    padding-left: 25px;
+  }
+  #content {
+    font-size: 10px;
+    padding-left: 5px;
+
+    padding-top: 30px;
+    margin-left: 5px;
+    margin-top: 20px;
+  }
+  label {
+    font-size: 15px;
+  }
+  /* h1 {
+    font-size: 15px;
+  } */
 }
